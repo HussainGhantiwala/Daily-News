@@ -1,0 +1,51 @@
+{
+  "homepage": "https://hussainghantiwala.github.io/Daily-News",
+  "name": "dailynews",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mui/material": "^6.4.1",
+    "@mui/styled-engine-sc": "^6.4.0",
+    "bootstrap": "^5.3.3",
+    "cra-template": "1.2.0",
+    "dom": "^0.0.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-loader-spinner": "^6.1.6",
+    "react-router": "^7.1.5",
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "5.0.1",
+    "react-top-loading-bar": "^3.0.2",
+    "styled-components": "^6.1.14"
+  },
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
